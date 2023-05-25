@@ -46,6 +46,10 @@ form {
     height: 100%;
 }
 
+form button {
+    background-color: var(--lightPurple);
+}
+
 /* Utilities */
 
 .container {
@@ -74,14 +78,14 @@ form {
 
 /* Classes */
 
-/* .formTitle {
-    margin-bottom: 3rem;
-} */
+.formTitle {
+    font-weight: 600;
+}
 
 .formEl {
     margin-block: 1rem;
-    font-size: 3rem;
-    padding: .5rem
+    font-size: 2.5rem;
+    padding: .5rem;
 }
 
 /* ::placeholder {
